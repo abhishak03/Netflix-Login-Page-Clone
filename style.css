@@ -45,12 +45,53 @@ option{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 13rem;
-    font-size: 2rem;
+    padding: 13rem 13rem 1rem 13rem;
+}
+#Ads h1{
+  font-size: 2.9rem;
+  font-weight: 800;
+}
+#Ads p{
+  font-size: 1.5rem;
+  margin: 1.3rem;
 }
 
 .main-box{
     background-color: rgba(0, 0, 0, 0.64);
+}
+
+#login_area{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+#login_area h3{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.login-place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.login-place .email{
+}
+.login-place .btn{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 14px 7px 14px;
+  font-size: 1.5rem;
+  font-family: Sans-serif;
+  font-weight: 500;
+}
+.btn img{
+  filter: invert(1);
+  padding-top: 2px;
 }
 section {
   background-image: url(assests/Photos/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg);
