@@ -11,6 +11,7 @@ nav {
 }
 #logo img {
   width: 8vw;
+  filter: invert(26%) sepia(78%) saturate(7481%) hue-rotate(358deg) brightness(102%) contrast(107%);
 }
 
 #sign{
@@ -45,7 +46,7 @@ option{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 13rem 13rem 1rem 13rem;
+    padding: 11rem 13rem 1rem 13rem;
 }
 #Ads h1{
   font-size: 2.9rem;
@@ -66,6 +67,7 @@ option{
 
   justify-content: center;
   align-items: center;
+  padding-bottom: 8rem;
 }
 #login_area h3{
   font-size: 1.25rem;
@@ -73,18 +75,24 @@ option{
 }
 .login-place{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 50%;
+  width: 30%;
+  margin-top: 17px;
 }
-.login-place .email{
+.login-place .email input{
+  font-size: 1rem;
+  padding: 18px 144px 18px 8px;
+  border-radius: 5px;
+  border: 1.8px solid red;
+  background-color: rgba(0, 0, 0, 0.40);
 }
 .login-place .btn{
   background-color: red;
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 7px 14px 7px 14px;
+  padding: 12px 20px 12px 20px;
   font-size: 1.5rem;
   font-family: Sans-serif;
   font-weight: 500;
@@ -97,3 +105,4 @@ section {
   background-image: url(assests/Photos/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   color: white;
 }
+
